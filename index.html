@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sanly Galkan — Kriptografik gorag ulgamy</title>
+<title>Crypto Pixel— Kriptografik gorag ulgamy</title>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=JetBrains+Mono:wght@300;400;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <link rel="stylesheet" href="style.css">
@@ -14,7 +14,7 @@
 <div class="lang-bar">
   <span class="lang-label">LANG</span>
   <button class="lang-btn active" onclick="setLang('tk')" id="lb-tk">🇹🇲 TM</button>
-  <button class="lang-btn" onclick="setLang('en')" id="lb-en">en EN</button>
+  <button class="lang-btn" onclick="setLang('en')" id="lb-en">🇬🇧 EN</button>
   <button class="lang-btn" onclick="setLang('ru')" id="lb-ru">🇷🇺 RU</button>
   <button class="lang-btn" onclick="setLang('ja')" id="lb-ja">🇯🇵 JP</button>
 </div>
@@ -30,7 +30,7 @@
         <linearGradient id="hgf" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#00e5ff"/><stop offset="100%" stop-color="#a855f7"/></linearGradient>
       </defs>
     </svg>
-    <div><div>SANLY <em>GALKAN</em></div><div class="logo-ver" id="hdr-sub">·HOWPSUZLYK PLATFORMASY</div></div>
+    <div><div>CRYPTO<em>PIXEL</em></div><div class="logo-ver" id="hdr-sub">·HOWPSUZLYK PLATFORMASY</div></div>
   </div>
   <div class="hdr-badges">
     <div class="hbadge"><span class="dot dg"></span>AES-256-GCM</div>
@@ -48,8 +48,8 @@
   <button class="nb on" onclick="goTo('home')" id="btn-home"><span class="ico">⬡</span><span data-i="nav-home">Baş sahypa</span></button>
   <button class="nb" onclick="goTo('fileenc')" id="btn-fileenc"><span class="ico">📦</span><span data-i="nav-fileenc">Faýl şifrle</span></button>
   <button class="nb" onclick="goTo('filedec')" id="btn-filedec"><span class="ico">🔓</span><span data-i="nav-filedec">Faýl aç</span></button>
-  <button class="nb" onclick="goTo('steg-hide')" id="btn-steg-hide"><span class="ico">🖼</span><span data-i="nav-steg-hide">Steg · Gizle</span></button>
-  <button class="nb" onclick="goTo('steg-reveal')" id="btn-steg-reveal"><span class="ico">🔍</span><span data-i="nav-steg-reveal">Steg · Çykar</span></button>
+  <button class="nb" onclick="goTo('steg-hide')" id="btn-steg-hide"><span class="ico">🖼</span><span data-i="nav-steg-hide">Steg · gizle</span></button>
+  <button class="nb" onclick="goTo('steg-reveal')" id="btn-steg-reveal"><span class="ico">🔍</span><span data-i="nav-steg-reveal">Steg · çykar</span></button>
   <button class="nb" onclick="goTo('textenc')" id="btn-textenc"><span class="ico">📝</span><span data-i="nav-textenc">Tekst şifrle</span></button>
   <button class="nb" onclick="goTo('qr')" id="btn-qr"><span class="ico">📲</span><span data-i="nav-qr">QR Parol</span></button>
 </nav>
@@ -58,7 +58,7 @@
 <div id="page-home" class="page on">
   <div class="shead">
     <div class="shead-tag">// <span data-i="home-tag">PLATFORMA GIRIZME</span></div>
-    <div class="shead-title">Sanly Galkan</div>
+    <div class="shead-title">Crypto Pixel</div>
     <div class="shead-desc" data-i="home-desc">Faýl şifrlemek, steganografiýa, tekst şifrleme we QR parol paýlaşma — hemmesi brauzer içinde. Hiç bir maglumat serwere iberilmeýär.</div>
   </div>
   <div class="kpi-grid">
@@ -71,7 +71,7 @@
     <div class="feat" onclick="goTo('fileenc')">
       <div class="feat-ico">📦</div>
       <div>
-        <div class="feat-title" data-i="feat1-title">Faýl Şifrlemek</div>
+        <div class="feat-title" data-i="feat1-title">Faýl şifrlemek</div>
         <div class="feat-desc" data-i="feat1-desc">PDF, surat, ZIP — islendik faýly AES-256-GCM bilen şifrläp .qg formatda ýükläp alyň.</div>
         <span class="feat-tag cyan">AES-256-GCM</span>
       </div>
@@ -79,7 +79,7 @@
     <div class="feat" onclick="goTo('filedec')">
       <div class="feat-ico">🔓</div>
       <div>
-        <div class="feat-title" data-i="feat2-title">Faýl Açmak</div>
+        <div class="feat-title" data-i="feat2-title">Faýl açmak</div>
         <div class="feat-desc" data-i="feat2-desc">.qg formatly faýly parol bilen açyp, asyl faýly doly dikeldip alyň.</div>
         <span class="feat-tag cyan">AES-256-GCM</span>
       </div>
@@ -97,7 +97,7 @@
       <div>
         <div class="feat-title" data-i="feat4-title">Steganografiýa — Çykarmak</div>
         <div class="feat-desc" data-i="feat4-desc">Gizlin maglumatly PNG suraty ýükläp, parol bilen içindäki şifrli maglumaty açyň.</div>
-        <span class="feat-tag violet">LSB KODÇÖZME</span>
+        <span class="feat-tag violet">LSB KOD ÇÖZME</span>
       </div>
     </div>
     <div class="feat" onclick="goTo('textenc')">
@@ -119,7 +119,7 @@
     <div class="feat" onclick="goTo('steg-hide')">
       <div class="feat-ico">🔬</div>
       <div>
-        <div class="feat-title" data-i="feat7-title">Statistik LSB Barlagy</div>
+        <div class="feat-title" data-i="feat7-title">Statistik LSB barlagy</div>
         <div class="feat-desc" data-i="feat7-desc">Örtük suratyňyzda öňden gizlin maglumat barmy diýip hi-kwadrat (χ²) statistik testi bilen barlaň — doly ýerli, brauzerde.</div>
         <span class="feat-tag cyan" data-i="feat7-tag">LOKAL SELJERME</span>
       </div>
@@ -128,14 +128,14 @@
   <div class="divider"></div>
   <div style="margin-bottom:16px">
     <div class="shead-tag">// <span data-i="arch-tag">ARHITEKTURA</span></div>
-    <div style="font-family:'Orbitron',monospace;font-size:14px;font-weight:700;color:var(--white);margin-top:4px" data-i="arch-title">Platforma Arhitekturasy</div>
+    <div style="font-family:'Orbitron',monospace;font-size:14px;font-weight:700;color:var(--white);margin-top:4px" data-i="arch-title">Platformanyň arhitekturasy</div>
   </div>
   <div class="pipeline">
     <div class="pipe-step"><div class="pipe-icon">👤</div><div class="pipe-box" data-i="pipe-user">ULANYJI</div><div class="pipe-lbl" data-i="pipe-start">Başlangyç</div></div>
     <div class="pipe-arrow">→</div>
-    <div class="pipe-step"><div class="pipe-icon">⬡</div><div class="pipe-box active">SANLY GALKAN</div><div class="pipe-lbl" data-i="pipe-platform">Platforma</div></div>
+    <div class="pipe-step"><div class="pipe-icon">⬡</div><div class="pipe-box active">CRYPTO PIXEL</div><div class="pipe-lbl" data-i="pipe-platform">Platforma</div></div>
     <div class="pipe-arrow">→</div>
-    <div class="pipe-step"><div class="pipe-icon">🔑</div><div class="pipe-box">PBKDF2-SHA512</div><div class="pipe-lbl" data-i="pipe-keygen">Açar Emele Getirmek</div></div>
+    <div class="pipe-step"><div class="pipe-icon">🔑</div><div class="pipe-box">PBKDF2-SHA512</div><div class="pipe-lbl" data-i="pipe-keygen">Açar emele getirmek</div></div>
     <div class="pipe-arrow">→</div>
     <div class="pipe-step"><div class="pipe-icon">🔐</div><div class="pipe-box active">AES-256-GCM</div><div class="pipe-lbl" data-i="pipe-enc">Şifrlemek</div></div>
     <div class="pipe-arrow">→</div>
@@ -162,7 +162,7 @@
 <div id="page-fileenc" class="page">
   <div class="shead">
     <div class="shead-tag">// FAÝL → AES-256-GCM → .QG</div>
-    <div class="shead-title" data-i="fenc-title">Faýl Şifrlemek</div>
+    <div class="shead-title" data-i="fenc-title">Faýl şifrlemek</div>
     <div class="shead-desc" data-i="fenc-desc">Islendik faýly şifrläp .qg formatda ýükläp alyň. Ähli işlem brauzerde geçýär.</div>
   </div>
   <div class="pipeline" style="margin-bottom:24px">
@@ -211,7 +211,7 @@
       </div>
     </div>
     <div class="field">
-      <label class="flabel" data-i="lbl-passconf">Paroly Tassykla</label>
+      <label class="flabel" data-i="lbl-passconf">Paroly tassykla</label>
       <div class="finput">
         <input type="password" id="enc-pass2" placeholder="..." autocomplete="new-password">
         <button class="peek" onclick="togglePeek('enc-pass2')">👁</button>
@@ -220,7 +220,7 @@
     </div>
   </div>
   <div class="btn-row">
-    <button class="btn btn-primary" onclick="encryptFile()">🔐 <span data-i="btn-encfile">Şifrle & .qg Ýükle</span></button>
+    <button class="btn btn-primary" onclick="encryptFile()">🔐 <span data-i="btn-encfile">Şifrle & .qg ýükle</span></button>
     <button class="btn btn-ghost" onclick="clearFile('enc')"><span data-i="btn-clear">Arassala</span></button>
   </div>
   <div class="progress-wrap" id="enc-prog">
@@ -241,14 +241,14 @@
 <div id="page-filedec" class="page">
   <div class="shead">
     <div class="shead-tag">// .QG → AES-256-GCM → <span data-i="fdec-tag">ASYL FAÝL</span></div>
-    <div class="shead-title" data-i="fdec-title">Faýl Açmak</div>
+    <div class="shead-title" data-i="fdec-title">Faýl açmak</div>
     <div class="shead-desc" data-i="fdec-desc">.qg formatly şifrli faýly açyp asyl faýly doly dikeldip alyň.</div>
   </div>
   <div class="dropzone" id="dec-dz" ondragover="dzOver(event,'dec-dz')" ondragleave="dzOut('dec-dz')" ondrop="dzDrop(event,'decFile')">
     <input type="file" id="decFile" accept=".qg" onchange="fileSelected('dec')">
     <div class="dz-icon">🔒</div>
     <div class="dz-title" data-i="dz-selectqg">.qg faýl saýlaň</div>
-    <div class="dz-sub" data-i="dz-qgdesc">Sanly Galkan şifrli faýl</div>
+    <div class="dz-sub" data-i="dz-qgdesc">Crypto_Pixel şifrli faýl</div>
     <div class="dz-types"><span class="dz-type">.QG FORMAT</span></div>
   </div>
   <div class="file-card" id="dec-fc">
@@ -299,22 +299,22 @@
     <div class="pipe-arrow">→</div>
     <div class="pipe-step"><div class="pipe-icon">🖼</div><div class="pipe-box" data-i="pipe-png">PNG surat</div></div>
     <div class="pipe-arrow">→</div>
-    <div class="pipe-step"><div class="pipe-icon">🔬</div><div class="pipe-box violet" data-i="pipe-lsb">LSB Kodlamak</div></div>
+    <div class="pipe-step"><div class="pipe-icon">🔬</div><div class="pipe-box violet" data-i="pipe-lsb">LSB kodlamak</div></div>
     <div class="pipe-arrow">→</div>
     <div class="pipe-step"><div class="pipe-icon">✅</div><div class="pipe-box green">I′ (<span data-i="pipe-stegpng">Gizlin PNG</span>)</div></div>
   </div>
   <div class="two-col">
     <div>
-      <label class="flabel" data-i="lbl-coverpng">Örtük Surat (PNG saýlaň)</label>
+      <label class="flabel" data-i="lbl-coverpng">Surat (PNG saýlaň)</label>
       <div class="dropzone" id="steg-dz" style="padding:20px" ondragover="dzOver(event,'steg-dz')" ondragleave="dzOut('steg-dz')" ondrop="dzDrop(event,'stegImg')">
         <input type="file" id="stegImg" accept="image/*" onchange="stegImgSelected()">
         <div class="dz-icon" style="font-size:24px">🖼</div>
         <div class="dz-title" style="font-size:13px" data-i="dz-uploadpng">PNG ýükläň</div>
-        <div class="dz-sub" data-i="dz-coverdesc">Örtük surat (diňe PNG)</div>
+        <div class="dz-sub" data-i="dz-coverdesc">Surat (diňe PNG)</div>
       </div>
       <div class="img-preview-wrap" id="steg-prev-wrap">
         <canvas id="steg-prev"></canvas>
-        <div class="img-overlay" data-i="overlay-cover">ÖRTÜK SURAT</div>
+        <div class="img-overlay" data-i="overlay-cover">SURAT</div>
       </div>
       <div class="field" style="margin-top:12px">
         <div class="btn-row" style="margin-bottom:0">
@@ -329,7 +329,7 @@
     </div>
     <div>
       <div class="field">
-        <label class="flabel" data-i="lbl-secret">Gizlin Maglumat (tekst)</label>
+        <label class="flabel" data-i="lbl-secret">Gizlin maglumat (tekst)</label>
         <textarea id="steg-msg" placeholder="..."></textarea>
         <div class="strinfo" style="margin-top:4px">
           <span id="steg-capacity" style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted)" data-i="steg-noimg">Surat saýlanmady</span>
@@ -352,7 +352,7 @@
         </div>
       </div>
       <div class="field">
-        <label class="flabel" data-i="lbl-passconf">Paroly Tassykla</label>
+        <label class="flabel" data-i="lbl-passconf">Paroly tassykla</label>
         <div class="finput">
           <input type="password" id="steg-pass2" placeholder="..." autocomplete="new-password">
           <button class="peek" onclick="togglePeek('steg-pass2')">👁</button>
@@ -381,14 +381,14 @@
 <div id="page-steg-reveal" class="page">
   <div class="shead">
     <div class="shead-tag">// LSB <span data-i="steg-rev-tag">STEGANOGRAFIÝA — ÇYKARMAK</span></div>
-    <div class="shead-title" data-i="steg-rev-title">Suratan gizlin maglumaty çykar</div>
+    <div class="shead-title" data-i="steg-rev-title">Suratdan gizlin maglumaty çykar</div>
     <div class="shead-desc" data-i="steg-rev-desc">Gizlin maglumatly PNG suraty ýükläp, parol bilen içindäki maglumaty açyň. Diňe PNG goldanýar — JPEG pikselleri bozýar.</div>
   </div>
   <div class="dropzone" id="rev-dz" style="max-width:500px" ondragover="dzOver(event,'rev-dz')" ondragleave="dzOut('rev-dz')" ondrop="dzDrop(event,'revImg')">
     <input type="file" id="revImg" accept="image/png" onchange="revImgSelected()">
     <div class="dz-icon">🔍</div>
     <div class="dz-title" data-i="dz-selectstegpng">Gizlin PNG saýlaň</div>
-    <div class="dz-sub" data-i="dz-stegdesc">Sanly Galkan Steg PNG (⚠ Diňe PNG!)</div>
+    <div class="dz-sub" data-i="dz-stegdesc">Crypto Pixel Steg PNG (⚠ Diňe PNG!)</div>
   </div>
   <div class="img-preview-wrap" id="rev-prev-wrap" style="max-width:500px">
     <canvas id="rev-prev"></canvas>
@@ -431,7 +431,7 @@
   <div class="two-col">
     <div>
       <div class="field">
-        <label class="flabel" data-i="lbl-plaintext">Açyk Tekst</label>
+        <label class="flabel" data-i="lbl-plaintext">Açyk tekst</label>
         <textarea id="txt-msg" placeholder="..."></textarea>
       </div>
       <div class="mode-tabs" style="display:flex;gap:8px;margin-bottom:14px">
@@ -454,7 +454,7 @@
         </div>
       </div>
       <div class="field" id="txt-passconf-field">
-        <label class="flabel" data-i="lbl-passconf">Paroly Tassykla</label>
+        <label class="flabel" data-i="lbl-passconf">Paroly tassykla</label>
         <div class="finput">
           <input type="password" id="txt-pass2" placeholder="..." autocomplete="new-password">
           <button class="peek" onclick="togglePeek('txt-pass2')">👁</button>
@@ -472,7 +472,7 @@
           <label class="flabel" style="margin:0;flex:1" data-i="lbl-result-pem">Netije — Base64 PEM</label>
           <button class="cpbtn" id="txt-cp" onclick="doCopy('txt-out','txt-cp')" data-i="btn-copy">Göçür</button>
         </div>
-        <textarea id="txt-out" readonly style="height:220px" placeholder="——BAŞLANGYJY SANLY GALKAN..."></textarea>
+        <textarea id="txt-out" readonly style="height:220px" placeholder="——BAŞLANGYJY Crypto Pixel..."></textarea>
       </div>
     </div>
   </div>
@@ -482,7 +482,7 @@
 <div id="page-qr" class="page">
   <div class="shead">
     <div class="shead-tag">// QR KOD <span data-i="qr-tag">PAROL PAÝLAŞMA — ÖZBOLUŞLY FUNKSIÝA</span></div>
-    <div class="shead-title" data-i="qr-title">QR Parol Paýlaşma</div>
+    <div class="shead-title" data-i="qr-title">QR parol paýlaşma</div>
     <div class="shead-desc" data-i="qr-desc">Parolyňyzy QR kod arkaly howpsuz paýlaşyň. QR kod kamera bilen okalýar — hiç bir maglumat serwere iberilmeýär.</div>
   </div>
   <div class="pipeline" style="margin-bottom:24px">
@@ -505,7 +505,7 @@
         </div>
       </div>
       <div class="field">
-        <label class="flabel" data-i="lbl-qrsize">QR Ölçegi</label>
+        <label class="flabel" data-i="lbl-qrsize">QR ölçegi</label>
         <select id="qr-size" onchange="qrLive()" style="background:var(--bg3);border:1px solid var(--border);color:var(--white);padding:10px 14px;font-family:'JetBrains Mono',monospace;font-size:12px;outline:none;width:100%;cursor:pointer">
           <option value="128" data-i="qr-small">Kiçi (128×128)</option>
           <option value="200" selected data-i="qr-medium">Orta (200×200)</option>
@@ -528,7 +528,7 @@
               <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);line-height:1.9">
                 <strong style="color:var(--white)" data-i="qr-use-label">Ulanmak:</strong> <span data-i="qr-use-desc">Alyjy kamera bilen QR kody skaner etsin.</span><br>
                 <strong style="color:var(--white)" data-i="qr-sec-label">Howpsuzlyk:</strong> <span data-i="qr-sec-desc">QR kody diňe ygtybarly adamlara görkeziň.</span><br>
-                <strong style="color:var(--white)" data-i="qr-off-label">Oflaýn:</strong> <span data-i="qr-off-desc">Ähli işlem brauzerde geçýär.</span>
+                <strong style="color:var(--white)" data-i="qr-off-label">Oflaýn:</strong> <span data-i="qr-off-desc">Ähli işler brauzerde geçýär.</span>
               </div>
             </div>
           </div>

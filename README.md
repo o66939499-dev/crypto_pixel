@@ -1,9 +1,9 @@
 
-# Sanly Galkan — Cryptographic protection system
+# Crypto Pixel — Cryptographic protection system
 
-**Live demo:** https://o66939499-dev.github.io/sanly-galkan/
+**Live demo:** https://o66939499-dev.github.io/crypto_pixel/
 
-Sanly Galkan is a free, open-source security platform for protecting personal data, running entirely in the browser. No data is ever sent to a server — all operations are performed locally on the user's own device.
+Crypto Pixel-is a free, open-source security platform for protecting personal data, running entirely in the browser. No data is ever sent to a server — all operations are performed locally on the user's own device.
 
 ---
 
@@ -30,7 +30,7 @@ Sanly Galkan is a free, open-source security platform for protecting personal da
 
 Just visit the link below — no installation required, it runs directly in your browser:
 
-👉 **https://o66939499-dev.github.io/sanly-galkan/**
+👉 **https://o66939499-dev.github.io/crypto_pixel/**
 
 ## 👩‍🎓 Author
 

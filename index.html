@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Crypto Pixel— Kriptografik gorag ulgamy</title>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=JetBrains+Mono:wght@300;400;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -321,8 +321,8 @@
           <button class="btn btn-ghost" onclick="stegCheckImage()">🔬 <span data-i="btn-stegcheck">Suraty barla (χ² statistik testi)</span></button>
         </div>
         <div class="ai-metrics" id="steg-chk-metrics" style="display:none;margin-top:10px">
-          <div class="ai-metric"><span data-i="ai-m-chisq">χ² statistika</span>: <b id="steg-chk-chisq">0</b></div>
-          <div class="ai-metric"><span data-i="ai-m-verdict">Lokal netije</span>: <b id="steg-chk-verdict">—</b></div>
+          <div class="ai-metric"><span data-i="steg-m-chisq">χ² statistika</span>: <b id="steg-chk-chisq">0</b></div>
+          <div class="ai-metric"><span data-i="steg-m-verdict">Lokal netije</span>: <b id="steg-chk-verdict">—</b></div>
         </div>
         <div class="alert" id="steg-chk-alert"></div>
       </div>

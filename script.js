@@ -1,4 +1,3 @@
-// ════════ TRANSLATIONS ════════
 const LANGS = {
   tk: {
     'hdr-sub': '·HOWPSUZLYK PLATFORMASY',
@@ -156,38 +155,11 @@ const LANGS = {
     'val-stegalgo': '✓ Ähli enjam goldaýar (RFC 2083 PNG)',
     'val-stegvis': 'Ýok — LSB 1-bit ±1 reňk tapawudy göze görünmeýär',
     'lbl-capacity': 'Kapasite:',
-    'nav-ai': 'AI Howpsuzlyk',
-    'ai-tag': 'EMELI AŇ BILEN HOWPSUZLYK SELJERMESI',
-    'ai-title': 'AI Howpsuzlyk Merkezi',
-    'ai-desc': 'Crypto Pixel-iň esasy kriptografik işleri doly oflaýn galýar. Bu bölüm Claude/OpenAI AI API arkaly goşmaça seljerme berýär — diňe siz aç-açan rugsat berseňiz işleýär, we hiç wagt hakyky parolyňyzy ýa-da gizlin maglumatyňyzy API-a ibermeýär (diňe anonim ölçegler iberilýär).',
-    'ai-privacy-title': 'Gizlinlik kepili:',
-    'ai-privacy-desc': 'Hakyky parol, faýl ýa-da surat maglumaty hiç wagt AI API-a iberilmeýär. Diňe san görnüşindäki statistika (uzynlyk, entropiýa, hi-kwadrat netijesi we ş.m.) iberilýär.',
-    'ai-settings-title': 'AI API sazlamalary',
-    'ai-provider': 'AI üpjün ediji',
-    'ai-key-label': 'API Açary (diňe brauzeriň ýadynda saklanýar)',
-    'ai-key-hint': 'Açar diňe şu sahypanyň JS ýadynda (RAM) saklanýar, hiç ýere ugradylmaýar ýa-da diskde ýazylmaýar. Sahypany täzeden ýüklesek ýitýär.',
-    'ai-mod1-title': 'AI parol maslahatçysy',
-    'ai-mod1-desc': 'Parolyňyzyň güýjüni ýerli (lokal) hasaplaýarys — diňe san görkezijiler (uzynlyk, entropiýa bit, sinp dürlüligi) AI-a iberilýär, parolyň özi asla iberilmeýär.',
-    'ai-m-len': 'Uzynlyk', 'ai-m-entropy': 'Entropiýa', 'ai-m-classes': 'Dürlüligi', 'ai-m-crack': 'Çenli döwülme wagty',
-    'btn-ai-advice': 'AI maslahat Al',
-    'ai-mod2-title': 'AI howpsuzlyk auditi',
-    'ai-mod2-desc': 'Şu sessiýadaky anonim ulanyş statistikasyny (näçe faýl şifrlendi, näçe gezek steganografiýa ulanyldy we ş.m.) seljerip, AI siziň howpsuzlyk endikleriňiz barada maslahat berer.',
-    'btn-ai-audit': 'Sessiýa auditini başlat',
-    'ai-mod3-title': 'AI Steganografiýa anyklaýjy',
-    'ai-mod3-desc': 'PNG suratyny ýükläň — ilki ýerli hi-kwadrat (χ²) statistiki LSB testi geçirilýär (surat hiç ýere iberilmeýär), soňra diňe san netijeleri AI-a iberilip, düşündirişli hasabat alynýar.',
-    'ai-steg-select': 'PNG surat saýlaň ýa-da süýräp taşlaň',
-    'ai-steg-only': 'Diňe .png format goldanýar',
-    'ai-m-chisq': 'χ² statistika', 'ai-m-verdict': 'Lokal netije',
-    'ai-verdict-likely': 'Gizlin maglumat bar bolmagy ähtimal',
-    'ai-verdict-maybe': 'Belli bir zat aýtmak kyn',
-    'ai-verdict-unlikely': 'Adaty surat ýaly görünýär',
-    'btn-ai-steg': 'AI bilen seljer',
-    'ai-report-tag': 'AI HASABATY',
-    'ai-thinking': 'AI seljerýär...',
-    'ai-instantly': 'sekunt',
-    'err-noaikey': '⚠ Ilki AI API açaryny giriziň (AI sazlamalary böleginde).',
-    'err-noaipass': '⚠ Ilki parol giriziň.',
-    'err-noaiimg': '⚠ Ilki PNG surat saýlaň.',
+    'steg-m-chisq': 'χ² statistika', 'steg-m-verdict': 'Netije',
+    'steg-verdict-likely': 'Gizlin maglumat bar bolmagy ähtimal',
+    'steg-verdict-maybe': 'Belli bir zat aýtmak kyn',
+    'steg-verdict-unlikely': 'Adaty surat ýaly görünýär',
+    'err-pweak': '⚠ Parol gaty gowşak! Azyndan 8 harp ulanyň.',
   },
   en: {
     'hdr-sub': '·SECURITY PLATFORM',
@@ -219,9 +191,9 @@ const LANGS = {
     'feat6-title': 'QR password sharing',
     'feat6-desc': 'Share your password securely via QR code. Instantly scanned with a camera.',
     'feat6-tag': 'UNIQUE FEATURE',
-    'feat7-title': 'AI security centre',
-    'feat7-desc': 'Password advisor, session audit and steganalysis detector — all powered by Claude/OpenAI API, with privacy guarantee.',
-    'feat7-tag': 'AI POWERED',
+    'feat7-title': 'Statistical LSB check',
+    'feat7-desc': 'Check whether a cover image already contains hidden data using a local chi-square (χ²) statistical test — fully offline, in your browser.',
+    'feat7-tag': 'LOCAL ANALYSIS',
     'arch-tag': 'ARCHITECTURE',
     'arch-title': 'Platform architecture',
     'pipe-user': 'USER',
@@ -348,38 +320,11 @@ const LANGS = {
     'val-stegalgo': '✓ Compatible with all devices (RFC 2083 PNG)',
     'val-stegvis': 'None — LSB 1-bit ±1 color difference is imperceptible',
     'lbl-capacity': 'Capacity:',
-    'nav-ai': 'AI Security',
-    'ai-tag': 'AI-POWERED SECURITY ANALYSIS',
-    'ai-title': 'AI Security Centre',
-    'ai-desc': 'Crypto Pixel\'s core cryptographic operations remain fully offline. This section provides additional analysis via the Claude/OpenAI API — only when you explicitly enable it, and your actual password or secret data is NEVER sent to the API (only anonymous metrics are sent).',
-    'ai-privacy-title': 'Privacy guarantee:',
-    'ai-privacy-desc': 'Your actual password, file, or image data is never sent to the AI API. Only numeric statistics (length, entropy, chi-square result, etc.) are transmitted.',
-    'ai-settings-title': 'AI API Settings',
-    'ai-provider': 'AI Provider',
-    'ai-key-label': 'API Key (stored only in browser memory)',
-    'ai-key-hint': 'The key is stored only in this page\'s JS memory (RAM), never transmitted elsewhere or written to disk. It is lost when you reload the page.',
-    'ai-mod1-title': 'AI Password Advisor',
-    'ai-mod1-desc': 'We compute your password strength locally — only numeric metrics (length, entropy bits, class diversity) are sent to the AI, never the password itself.',
-    'ai-m-len': 'Length', 'ai-m-entropy': 'Entropy', 'ai-m-classes': 'Class diversity', 'ai-m-crack': 'Est. crack time',
-    'btn-ai-advice': 'Get AI Advice',
-    'ai-mod2-title': 'AI Security Audit',
-    'ai-mod2-desc': 'The AI analyses your anonymous session usage statistics (how many files encrypted, how often steganography was used, etc.) and gives advice on your security habits.',
-    'btn-ai-audit': 'Start Session Audit',
-    'ai-mod3-title': 'AI Steganalysis Detector',
-    'ai-mod3-desc': 'Upload a PNG image — a local chi-square (χ²) statistical LSB test is performed first (the image is never sent anywhere), then only the numeric results are sent to the AI for an explained report.',
-    'ai-steg-select': 'Select or drag & drop a PNG image',
-    'ai-steg-only': 'Only .PNG format is supported',
-    'ai-m-chisq': 'χ² statistic', 'ai-m-verdict': 'Local verdict',
-    'ai-verdict-likely': 'Hidden data likely present',
-    'ai-verdict-maybe': 'Inconclusive',
-    'ai-verdict-unlikely': 'Appears to be a natural image',
-    'btn-ai-steg': 'Analyse with AI',
-    'ai-report-tag': 'AI REPORT',
-    'ai-thinking': 'AI analysing...',
-    'ai-instantly': 'second',
-    'err-noaikey': '⚠ Please enter your AI API key first (in the AI Settings section).',
-    'err-noaipass': '⚠ Please enter a password first.',
-    'err-noaiimg': '⚠ Please select a PNG image first.',
+    'steg-m-chisq': 'χ² statistic', 'steg-m-verdict': 'Result',
+    'steg-verdict-likely': 'Hidden data likely present',
+    'steg-verdict-maybe': 'Inconclusive',
+    'steg-verdict-unlikely': 'Appears to be a natural image',
+    'err-pweak': '⚠ Password too weak! Use at least 8 characters.',
   },
   ru: {
     'hdr-sub': '·ПЛАТФОРМА БЕЗОПАСНОСТИ',
@@ -411,6 +356,9 @@ const LANGS = {
     'feat6-title': 'Обмен паролями через QR',
     'feat6-desc': 'Безопасно поделитесь паролем через QR-код. Мгновенно сканируется камерой.',
     'feat6-tag': 'УНИКАЛЬНАЯ ФУНКЦИЯ',
+    'feat7-title': 'Статистическая проверка LSB',
+    'feat7-desc': 'Проверьте, содержит ли изображение скрытые данные, с помощью локального хи-квадрат (χ²) теста — полностью оффлайн, в браузере.',
+    'feat7-tag': 'ЛОКАЛЬНЫЙ АНАЛИЗ',
     'arch-tag': 'АРХИТЕКТУРА',
     'arch-title': 'Архитектура платформы',
     'pipe-user': 'ПОЛЬЗОВАТЕЛЬ',
@@ -537,6 +485,11 @@ const LANGS = {
     'val-stegalgo': '✓ Совместимо со всеми устройствами (RFC 2083 PNG)',
     'val-stegvis': 'Отсутствует — LSB 1-бит ±1 цветовая разница незаметна',
     'lbl-capacity': 'Ёмкость:',
+    'steg-m-chisq': 'χ² статистика', 'steg-m-verdict': 'Результат',
+    'steg-verdict-likely': 'Вероятно есть скрытые данные',
+    'steg-verdict-maybe': 'Трудно сказать точно',
+    'steg-verdict-unlikely': 'Похоже на обычное изображение',
+    'err-pweak': '⚠ Пароль слишком слабый! Минимум 8 символов.',
   },
   ja: {
     'hdr-sub': '·セキュリティプラットフォーム',
@@ -568,6 +521,9 @@ const LANGS = {
     'feat6-title': 'QRパスワード共有',
     'feat6-desc': 'QRコードでパスワードを安全に共有。カメラで即座にスキャンできます。',
     'feat6-tag': 'ユニーク機能',
+    'feat7-title': '統計的LSBチェック',
+    'feat7-desc': 'ローカルのカイ二乗（χ²）統計テストを使用して、カバー画像に隠しデータが既に含まれているかを確認します — 完全オフライン、ブラウザ内で。',
+    'feat7-tag': 'ローカル分析',
     'arch-tag': 'アーキテクチャ',
     'arch-title': 'プラットフォームアーキテクチャ',
     'pipe-user': 'ユーザー',
@@ -694,6 +650,11 @@ const LANGS = {
     'val-stegalgo': '✓ すべてのデバイスと互換性あり（RFC 2083 PNG）',
     'val-stegvis': 'なし — LSB 1ビット ±1色差は視認不可能',
     'lbl-capacity': '容量：',
+    'steg-m-chisq': 'χ²統計', 'steg-m-verdict': '結果',
+    'steg-verdict-likely': '隠しデータがある可能性が高い',
+    'steg-verdict-maybe': '判定不能',
+    'steg-verdict-unlikely': '通常の画像のようです',
+    'err-pweak': '⚠ パスワードが弱すぎます！8文字以上にしてください。',
   }
 };
 
@@ -811,6 +772,22 @@ function showProg(id, pct, lbl) {
 }
 function hideProg(id) { document.getElementById(id + '-prog').classList.remove('show'); }
 
+// ─── Safe result renderer (XSS goragy: innerHTML ulanylmaýar) ───
+// rows: [[label, value], ...] — hersi aýratyn <strong>/tekst jübüti hökmünde,
+// DOM elementleri arkaly goşulýar, şonuň üçin value-nyň içindäki HTML
+// belgileri (mysal: <script>) hiç haçan ýerine ýetirilmeýär.
+function setResultBody(elId, rows) {
+  const el = document.getElementById(elId);
+  el.textContent = '';
+  rows.forEach(([label, value]) => {
+    const strong = document.createElement('strong'); strong.textContent = label + ' ';
+    const line = document.createElement('div');
+    line.appendChild(strong);
+    line.appendChild(document.createTextNode(String(value)));
+    el.appendChild(line);
+  });
+}
+
 // ─── Alert ───
 function showAlert(id, msg, type) {
   const el = document.getElementById(id);
@@ -834,6 +811,7 @@ async function encryptFile() {
   const pass2 = document.getElementById('enc-pass2').value;
   if (!f) { showAlert('enc-alert', t('err-nofile'), 'err'); return; }
   if (!pass) { showAlert('enc-alert', t('err-nopass'), 'err'); return; }
+  if (pass.length < 8) { showAlert('enc-alert', t('err-pweak'), 'err'); return; }
   if (pass !== pass2) { showAlert('enc-alert', t('err-passmatch'), 'err'); return; }
   try {
     showProg('enc', 10, t('prog-reading'));
@@ -862,13 +840,14 @@ async function encryptFile() {
     const btn = document.getElementById('enc-dl-btn');
     btn.onclick = () => { const a = document.createElement('a'); a.href = url; a.download = outName; a.click(); };
     document.getElementById('enc-result').classList.add('show');
-    document.getElementById('enc-result-body').innerHTML =
-      `<strong>${t('lbl-origfile')}</strong> ${f.name}<br>
-       <strong>${t('lbl-origsize')}</strong> ${fmtSize(f.size)}<br>
-       <strong>${t('lbl-encfile')}</strong> ${outName}<br>
-       <strong>${t('lbl-encsize')}</strong> ${fmtSize(payload.length)}<br>
-       <strong>${t('lbl-algo')}</strong> ${t('lbl-encalgo')}<br>
-       <strong>${t('lbl-format')}</strong> Crypto Pixel (.qg)`;
+    setResultBody('enc-result-body', [
+      [t('lbl-origfile'), f.name],
+      [t('lbl-origsize'), fmtSize(f.size)],
+      [t('lbl-encfile'), outName],
+      [t('lbl-encsize'), fmtSize(payload.length)],
+      [t('lbl-algo'), t('lbl-encalgo')],
+      [t('lbl-format'), 'Crypto Pixel (.qg)'],
+    ]);
     bumpStat('enc'); setTimeout(() => hideProg('enc'), 1000);
   } catch (e) { hideProg('enc'); showAlert('enc-alert', '❌ ' + e.message, 'err'); }
 }
@@ -900,10 +879,14 @@ async function decryptFile() {
     const btn = document.getElementById('dec-dl-btn');
     btn.onclick = () => { const a = document.createElement('a'); a.href = url; a.download = origName; a.click(); };
     document.getElementById('dec-result').classList.add('show');
-    document.getElementById('dec-result-body').innerHTML =
-      `<strong>${t('lbl-origfile')}</strong> ${origName}<br>
-       <strong>${t('lbl-origsize')}</strong> ${fmtSize(origData.length)}<br>
-       <strong>${t('lbl-gcmauth')}</strong> ${t('lbl-gcmauthval')}`;
+    // DIKKAT: origName şifrden açylan faýlyň adydyr we doly ony şifrleýjiniň
+    // (faýly iberen adamyň) gözegçiligindedir — HTML hökmünde hiç haçan
+    // goýberilmeýär (innerHTML ulanylmaýar), diňe howpsuz tekst hökmünde.
+    setResultBody('dec-result-body', [
+      [t('lbl-origfile'), origName],
+      [t('lbl-origsize'), fmtSize(origData.length)],
+      [t('lbl-gcmauth'), t('lbl-gcmauthval')],
+    ]);
     bumpStat('dec'); setTimeout(() => hideProg('dec'), 1000);
   } catch (e) { hideProg('dec'); showAlert('dec-alert', t('err-wrongpass'), 'err'); }
 }
@@ -955,6 +938,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   const script = document.createElement('script');
   script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jsQR/1.4.0/jsQR.min.js';
+  // TODO (howpsuzlyk): bu ýere-de SRI goşuň. Takyk hash-y
+  // https://cdnjs.com/libraries/jsQR/1.4.0 sahypasyndaky
+  // "Copy Script Tag" düwmesinden alyň (men bu gurşawda hash-y
+  // garaşsyz tassyklap bilmedim, ýalňyş hash goýsam skript
+  // düýbünden ýüklenmez, şonuň üçin ony size goýmagy saýladym):
+  // script.integrity = 'sha512-...'; script.crossOrigin = 'anonymous'; script.referrerPolicy = 'no-referrer';
   document.head.appendChild(script);
 });
 function uint32ToBytes(n) { return new Uint8Array([(n >>> 24) & 0xFF, (n >>> 16) & 0xFF, (n >>> 8) & 0xFF, n & 0xFF]); }
@@ -991,6 +980,7 @@ async function stegHide() {
   if (!f) { showAlert('steg-alert', t('err-nophoto'), 'err'); return; }
   if (!msg) { showAlert('steg-alert', t('err-nomsg'), 'err'); return; }
   if (!pass) { showAlert('steg-alert', t('err-nopass'), 'err'); return; }
+  if (pass.length < 8) { showAlert('steg-alert', t('err-pweak'), 'err'); return; }
   if (pass !== pass2) { showAlert('steg-alert', t('err-passmatch'), 'err'); return; }
   try {
     showProg('steg', 15, t('prog-aes'));
@@ -1022,13 +1012,14 @@ async function stegHide() {
     document.getElementById('steg-dl-btn').onclick = () => { const a = document.createElement('a'); a.href = url; a.download = fname; a.click(); };
     showProg('steg', 100, t('prog-done'));
     document.getElementById('steg-result').classList.add('show');
-    document.getElementById('steg-result-body').innerHTML =
-      `<strong>${t('lbl-algo')}</strong> ${t('lbl-stegalgo')}<br>
-       <strong>${t('lbl-stegmsg')}</strong> ${msg.length} ${t('chars')} → ${payload.length} B<br>
-       <strong>${t('lbl-stegsize')}</strong> ${c.width}×${c.height} px<br>
-       <strong>${t('lbl-stegcap')}</strong> ${fmtSize(4 + payload.length)} / ${fmtSize(Math.floor(maxBits / 8))}<br>
-       <strong>${t('lbl-steggallery')}</strong> ${t('val-stegalgo')}<br>
-       <strong>${t('lbl-stegvis')}</strong> ${t('val-stegvis')}`;
+    setResultBody('steg-result-body', [
+      [t('lbl-algo'), t('lbl-stegalgo')],
+      [t('lbl-stegmsg'), `${msg.length} ${t('chars')} → ${payload.length} B`],
+      [t('lbl-stegsize'), `${c.width}×${c.height} px`],
+      [t('lbl-stegcap'), `${fmtSize(4 + payload.length)} / ${fmtSize(Math.floor(maxBits / 8))}`],
+      [t('lbl-steggallery'), t('val-stegalgo')],
+      [t('lbl-stegvis'), t('val-stegvis')],
+    ]);
     bumpStat('steg'); setTimeout(() => hideProg('steg'), 800);
   } catch (e) { hideProg('steg'); showAlert('steg-alert', '❌ ' + e.message, 'err'); }
 }
@@ -1087,6 +1078,7 @@ async function txtEncrypt() {
   const pass = document.getElementById('txt-pass').value;
   const pass2 = document.getElementById('txt-pass2').value;
   if (!msg || !pass) { showAlert('txt-alert', t('err-notxtpass'), 'err'); return; }
+  if (pass.length < 8) { showAlert('txt-alert', t('err-pweak'), 'err'); return; }
   if (pass !== pass2) { showAlert('txt-alert', t('err-passmatch'), 'err'); return; }
   const enc = new TextEncoder();
   const salt = crypto.getRandomValues(new Uint8Array(16));
@@ -1147,16 +1139,22 @@ async function stegCheckImage() {
   const c = document.createElement('canvas'); c.width = img.naturalWidth; c.height = img.naturalHeight;
   const ctx = c.getContext('2d'); ctx.drawImage(img, 0, 0);
   const d = ctx.getImageData(0, 0, c.width, c.height).data;
-  // Chi-kwadrat LSB testi: jübüt/täk gymmatlaryň ýygylygyny deňeşdirmek
-  const hist = new Array(256).fill(0);
-  for (let i = 0; i < d.length; i += 4) { hist[d[i]]++; } // diňe R kanaly
-  let chi = 0;
-  for (let pv = 0; pv < 256; pv += 2) {
-    const o0 = hist[pv], o1 = hist[pv + 1] || 0;
-    const exp = (o0 + o1) / 2;
-    if (exp > 0) chi += Math.pow(o0 - exp, 2) / exp + Math.pow(o1 - exp, 2) / exp;
+  // Chi-kwadrat LSB testi: jübüt/täk gymmatlaryň ýygylygyny deňeşdirmek.
+  // Üç reňk kanalynyň (R,G,B) hersi aýratyn hasaplanyp, ortalamasy alynýar —
+  // diňe bir kanala (R) seretmek netijäni ýalňyş ugra çekip biler.
+  function chiForChannel(offset) {
+    const hist = new Array(256).fill(0);
+    for (let i = offset; i < d.length; i += 4) { hist[d[i]]++; }
+    let chi = 0;
+    for (let pv = 0; pv < 256; pv += 2) {
+      const o0 = hist[pv], o1 = hist[pv + 1] || 0;
+      const exp = (o0 + o1) / 2;
+      if (exp > 0) chi += Math.pow(o0 - exp, 2) / exp + Math.pow(o1 - exp, 2) / exp;
+    }
+    return chi;
   }
-  const verdictKey = chi < 200 ? 'ai-verdict-likely' : (chi < 600 ? 'ai-verdict-maybe' : 'ai-verdict-unlikely');
+  const chi = (chiForChannel(0) + chiForChannel(1) + chiForChannel(2)) / 3;
+  const verdictKey = chi < 200 ? 'steg-verdict-likely' : (chi < 600 ? 'steg-verdict-maybe' : 'steg-verdict-unlikely');
   stegChkStats = { chiSquare: Math.round(chi), width: c.width, height: c.height, verdictKey };
   document.getElementById('steg-chk-chisq').textContent = stegChkStats.chiSquare;
   document.getElementById('steg-chk-verdict').textContent = t(verdictKey);
